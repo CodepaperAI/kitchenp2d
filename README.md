@@ -15,11 +15,11 @@ Copy `.env.example` to `.env.local` and set:
 
 ```bash
 RESEND_API_KEY=re_your_api_key_here
-LEAD_RECIPIENT_EMAIL=leads@paint2decor.com
-RESEND_FROM_EMAIL="P2D Refinishing <verified@yourdomain.com>"
+LEAD_RECIPIENT_EMAIL=Info@paint2decor.com
+RESEND_FROM_EMAIL="P2D Refinishing <quotes@paint2decor.com>"
 ```
 
-Use a Resend-verified sender domain before production launch.
+Use a Resend-verified sender address on the `paint2decor.com` domain before production launch.
 
 ## Production Check
 

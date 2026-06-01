@@ -49,7 +49,7 @@ export async function POST(request: Request) {
 
   const apiKey = process.env.RESEND_API_KEY;
   const recipient = process.env.LEAD_RECIPIENT_EMAIL;
-  const from = process.env.RESEND_FROM_EMAIL || "P2D Refinishing <onboarding@resend.dev>";
+  const from = process.env.RESEND_FROM_EMAIL || "P2D Refinishing <quotes@paint2decor.com>";
 
   if (!apiKey || !recipient) {
     return redirectWithError(request, "The quote form is not configured yet. Please add the Resend environment variables.");
